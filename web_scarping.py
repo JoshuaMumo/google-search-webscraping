@@ -5,5 +5,5 @@ with open('home.html','r') as html_file:
     # print(content)
     soup=BeautifulSoup(content, 'lxml')
     # print(soup)
-    tags=soup.find('p')
+    tags=soup.find('a')
     print(tags)
