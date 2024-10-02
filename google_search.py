@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 from google_search import search
 
 headers = {
-
+    " "
 }
 
 def google_search(query):
